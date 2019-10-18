@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">D1041161029_Chavin Lorento</string>
+    <string name="input">Masukkan nama</string>
+    <string name="submit">Lanjut</string>
+    <string name="countup">CountUp</string>
+    <string name="countdown">CountDown</string>
+</resources>

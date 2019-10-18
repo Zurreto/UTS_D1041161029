@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity"
+    android:background="@drawable/blue_vector">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_marginRight="50px"
+            android:layout_marginLeft="50px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activity"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:id="@+id/judul"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_marginTop="75px"
+            android:layout_marginRight="50px"
+            android:layout_marginLeft="50px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activity mewakili layar utama dengan antarmuka pengguna, aktivities melakukan tindakan pada layar. Sebagai contoh, aplikasi email mungkin salah satu kegiatan yang menunjukkan daftar email baru, kegiatan lain untuk menulis email dan kegiatan lain untuk membaca email. Jika sebuah aplikasi memiliki lebih dari satu aktivity, salah satu dari mereka harus ditandai sebagai aktivity yang disajikan ketika aplikasi diluncurkan."
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:id="@+id/konten"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"/>
+        <ImageView
+            android:layout_width="960px"
+            android:layout_height="500px"
+            android:background="@drawable/activity"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"/>
+        <Button
+            android:layout_marginTop="50dp"
+            android:id="@+id/link_1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Link Materi"
+            />
+    </LinearLayout>
+</ScrollView>
